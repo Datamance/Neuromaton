@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+networkx = {extras = ["all"]}
+pylint = "*"
+
+[requires]
+python_version = "3.6"
